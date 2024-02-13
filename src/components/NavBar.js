@@ -10,6 +10,7 @@ import {
   PinterestIcon,
   SunIcon,
   MoonIcon,
+  FaceBookIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
@@ -140,6 +141,14 @@ const NavBar = () => {
             <PinterestIcon />
           </motion.a>
           <motion.a
+            href="https://www.facebook.com/Iksang.Yonghang"
+            target={"_blank"}
+            whileHover={{ y: -4 }}
+            className="w-6 mx-3 dark:bg-light rounded-full"
+          >
+            <FaceBookIcon />
+          </motion.a>
+          <motion.a
             href="/"
             target={"_blank"}
             whileHover={{ y: -4 }}
@@ -231,6 +240,14 @@ const NavBar = () => {
               className="w-6 mx-3 dark:bg-light rounded-full sm:mx-1"
             >
               <PinterestIcon />
+            </motion.a>
+            <motion.a
+              href="https://www.facebook.com/Iksang.Yonghang"
+              target={"_blank"}
+              whileHover={{ y: -4 }}
+              className="w-6 mx-3 dark:bg-light rounded-full"
+            >
+              <FaceBookIcon />
             </motion.a>
             <motion.a
               href="/"
