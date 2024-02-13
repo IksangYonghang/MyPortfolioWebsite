@@ -5,7 +5,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/InventoryManagement.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -137,12 +137,12 @@ const projects = () => {
         <Layout className="pt-16">
           <AnimatedText
             text="Imagination Trumps Knowledge!"
-            className="sm:mb-8 mb-16 text-5xl text-center xl:text-5xl lg:text-center lg:text-4xl md:text-3xl sm:text-2xl"
+            className="sm:mb-8 mb-16 text-6xl text-center xl:text-5xl lg:text-center lg:text-4xl md:text-3xl sm:text-2xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-y-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
+                title="Inventory Management System"
                 img={project1}
                 summary="  A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
             It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 

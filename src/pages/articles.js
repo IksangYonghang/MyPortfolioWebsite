@@ -112,12 +112,12 @@ const articles = () => {
         <title>BishalYonghang | Articles Page</title>
         <meta name="description" content="any description" />
       </Head>
-      <TransitionEffect/>
+      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
             text="Words Can Change The World! "
-            className="sm:mb-8 mb-16 text-5xl text-center xl:text-5xl lg:text-center lg:text-4xl md:text-3xl sm:text-2xl"
+            className="sm:mb-8 mb-16 text-6xl text-center xl:text-5xl lg:text-center lg:text-4xl md:text-3xl sm:text-2xl"
           />
           <ul className="grid grid-cols-2 gap-16 md:grid-cols-1 lg:gap-8 md:gap-y-16">
             <FeaturedArticle

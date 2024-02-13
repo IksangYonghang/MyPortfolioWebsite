@@ -9,6 +9,7 @@ import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import TransitionEffect from "@/components/TransitionEffect";
+import PersonalInformation from "@/components/PersonalInformation";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -39,12 +40,12 @@ const About = () => {
         <title>BishalYonghang | About Page</title>
         <meta name="description" content="any description" />
       </Head>
-      <TransitionEffect/>
+      <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
             text="Passion Fuels Purpose! "
-            className="sm:mb-8 mb-16 text-5xl text-center xl:text-5xl lg:text-center lg:text-4xl md:text-3xl sm:text-2xl"
+            className="sm:mb-8 mb-16 text-6xl text-center xl:text-5xl lg:text-center lg:text-4xl md:text-3xl sm:text-2xl"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
@@ -133,6 +134,7 @@ const About = () => {
           <Skills />
           <Experience />
           <Education />
+          <PersonalInformation />
         </Layout>
       </main>
     </>
