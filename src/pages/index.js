@@ -6,7 +6,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
-import lightBuld from "../../public/images/svgs/miscellaneous_icons_1.svg";
+import lightBuld from "../../public/images/svgs/bulb.svg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 export default function Home() {
@@ -43,7 +43,7 @@ export default function Home() {
               </p>
               <div className="flex items-center justify-center mt-2 lg:self-center">
                 <Link
-                  href="/BishalYonghangCV.pdf"
+                  href="/files/BishalYonghangCV.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold
                    hover:bg-light hover:text-dark border-2 border-solid border-transparent 

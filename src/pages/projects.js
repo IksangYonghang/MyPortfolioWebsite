@@ -6,6 +6,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
 import project1 from "../../public/images/projects/InventoryManagement.png";
+import project2 from "../../public/images/projects/PortfolioWebsite.png";
+import project3 from "../../public/images/projects/InvMgmt1.png";
+import project4 from "../../public/images/projects/InvMgmt2.png";
+import project5 from "../../public/images/projects/Portfolio1.png";
+import project6 from "../../public/images/projects/Portfolio2.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -136,7 +141,7 @@ const projects = () => {
       <main className="w-full mt-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Trumps Knowledge!"
+            text="Projects that reflect talent!"
             className="sm:mb-8 mb-16 text-6xl text-center xl:text-5xl lg:text-center lg:text-4xl md:text-3xl sm:text-2xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-y-0">
@@ -144,9 +149,8 @@ const projects = () => {
               <FeaturedProject
                 title="Inventory Management System"
                 img={project1}
-                summary="  A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-            local currency."
+                summary="  A feature-rich Inventory Management System using React, .Net, CSS, Context API, and React Router. 
+            It contains almost all features needed to handle stock management. You can easily get the report you want."
                 link="/"
                 github="/ "
                 type="Featured Project"
@@ -155,8 +159,8 @@ const projects = () => {
             <div className="col-span-6">
               {" "}
               <Project
-                title="Crypto Screener Application"
-                img={project1}
+                title="Inventory Management System"
+                img={project3}
                 link="/"
                 github="/ "
                 type="Featured Project"
@@ -165,8 +169,8 @@ const projects = () => {
             <div className="col-span-6">
               {" "}
               <Project
-                title="Crypto Screener Application"
-                img={project1}
+                title="Inventory Management System"
+                img={project4}
                 link="/"
                 github="/ "
                 type="Featured Project"
@@ -175,11 +179,11 @@ const projects = () => {
             <div className="col-span-12">
               {" "}
               <FeaturedProject
-                title="Crypto Screener Application"
-                img={project1}
-                summary="  A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-            local currency."
+                title="Portfolio Website"
+                img={project2}
+                summary="The website, crafted with Next.js, presents my portfolio and services in a sleek and 
+                responsive manner. Utilizing Next.js, tailwindcss and framer-motion it offers dynamic routing and optimized performance for a seamless browsing 
+                experience, even without server-side rendering or a backend database."
                 link="/"
                 github="/ "
                 type="Featured Project"
@@ -188,8 +192,8 @@ const projects = () => {
             <div className="col-span-6">
               {" "}
               <Project
-                title="Crypto Screener Application"
-                img={project1}
+                title="Portfolio Website"
+                img={project5}
                 link="/"
                 github="/ "
                 type="Featured Project"
@@ -198,8 +202,8 @@ const projects = () => {
             <div className="col-span-6">
               {" "}
               <Project
-                title="Crypto Screener Application"
-                img={project1}
+                title="Portfolio Website"
+                img={project6}
                 link="/"
                 github="/ "
                 type="Featured Project"
