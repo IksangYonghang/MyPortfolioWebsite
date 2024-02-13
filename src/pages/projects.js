@@ -151,8 +151,8 @@ const projects = () => {
                 img={project1}
                 summary="  A feature-rich Inventory Management System using React, .Net, CSS, Context API, and React Router. 
             It contains almost all features needed to handle stock management. You can easily get the report you want."
-                link="/"
-                github="/ "
+                link="https://github.com/IksangYonghang/StockManagement"
+                github="https://github.com/IksangYonghang/StockManagement "
                 type="Featured Project"
               />
             </div>
@@ -161,8 +161,8 @@ const projects = () => {
               <Project
                 title="Inventory Management System"
                 img={project3}
-                link="/"
-                github="/ "
+                link="https://github.com/IksangYonghang/StockManagement"
+                github="https://github.com/IksangYonghang/StockManagement "
                 type="Featured Project"
               />
             </div>
@@ -171,8 +171,8 @@ const projects = () => {
               <Project
                 title="Inventory Management System"
                 img={project4}
-                link="/"
-                github="/ "
+                link="https://github.com/IksangYonghang/StockManagement"
+                github="https://github.com/IksangYonghang/StockManagement "
                 type="Featured Project"
               />
             </div>
@@ -184,8 +184,8 @@ const projects = () => {
                 summary="The website, crafted with Next.js, presents my portfolio and services in a sleek and 
                 responsive manner. Utilizing Next.js, tailwindcss and framer-motion it offers dynamic routing and optimized performance for a seamless browsing 
                 experience, even without server-side rendering or a backend database."
-                link="/"
-                github="/ "
+                link="https://github.com/IksangYonghang/MyPortfolioWebsite"
+                github="https://github.com/IksangYonghang/MyPortfolioWebsite "
                 type="Featured Project"
               />
             </div>
@@ -194,8 +194,8 @@ const projects = () => {
               <Project
                 title="Portfolio Website"
                 img={project5}
-                link="/"
-                github="/ "
+                link="https://github.com/IksangYonghang/MyPortfolioWebsite"
+                github="https://github.com/IksangYonghang/MyPortfolioWebsite "
                 type="Featured Project"
               />
             </div>
@@ -204,8 +204,8 @@ const projects = () => {
               <Project
                 title="Portfolio Website"
                 img={project6}
-                link="/"
-                github="/ "
+                link="https://github.com/IksangYonghang/MyPortfolioWebsite"
+                github="https://github.com/IksangYonghang/MyPortfolioWebsite "
                 type="Featured Project"
               />
             </div>

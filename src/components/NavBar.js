@@ -132,14 +132,14 @@ const NavBar = () => {
           >
             <LinkedInIcon />
           </motion.a>
-          <motion.a
+          {/*<motion.a
             href="/"
             target={"_blank"}
             whileHover={{ y: -4 }}
             className="w-6 mx-3 dark:bg-light rounded-full"
           >
             <PinterestIcon />
-          </motion.a>
+        </motion.a>*/}
           <motion.a
             href="https://www.facebook.com/Iksang.Yonghang"
             target={"_blank"}
@@ -148,14 +148,14 @@ const NavBar = () => {
           >
             <FaceBookIcon />
           </motion.a>
-          <motion.a
+          {/* <motion.a
             href="/"
             target={"_blank"}
             whileHover={{ y: -4 }}
             className="w-6 ml-3"
           >
             <DribbbleIcon />
-          </motion.a>
+      </motion.a>*/}
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
             className={`flex ml-3 items-center justify-center rounded-full p-1 ${
@@ -233,14 +233,14 @@ const NavBar = () => {
             >
               <LinkedInIcon />
             </motion.a>
-            <motion.a
+            {/*<motion.a
               href="/"
               target={"_blank"}
               whileHover={{ y: -4 }}
               className="w-6 mx-3 dark:bg-light rounded-full sm:mx-1"
             >
               <PinterestIcon />
-            </motion.a>
+    </motion.a>*/}
             <motion.a
               href="https://www.facebook.com/Iksang.Yonghang"
               target={"_blank"}
@@ -249,14 +249,14 @@ const NavBar = () => {
             >
               <FaceBookIcon />
             </motion.a>
-            <motion.a
+            {/*<motion.a
               href="/"
               target={"_blank"}
               whileHover={{ y: -4 }}
               className="w-6 ml-3 sm:mx-1"
             >
               <DribbbleIcon />
-            </motion.a>
+  </motion.a>*/}
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
               className={`flex ml-3 items-center justify-center rounded-full p-1 ${
